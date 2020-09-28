@@ -1,0 +1,5 @@
+CREATE TABLE Students (
+ student_id INTEGER PRIMARY KEY,
+ name TEXT NOT NULL,
+ rf_id_code TEXT NOT NULL UNIQUE
+);
