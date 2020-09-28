@@ -1,3 +1,6 @@
+"""
+Created by donsky for www.donskytech.com
+"""
 import os
 import sqlite3
 
@@ -35,7 +38,7 @@ def create_table():
 
 def create_student_task(conn, student):
     """
-    Create a new task
+    Create a new student task
     :param conn:
     :param student:
     :return:
